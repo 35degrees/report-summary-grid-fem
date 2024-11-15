@@ -5,7 +5,7 @@
 <section id="categories" class="items-evenly flex w-full flex-col justify-center sm:gap-3 md:gap-4">
 	{#each data as data, i}
 		<div
-			class="flex flex-row items-center justify-between sm:px-7 sm:py-2 md:px-4 md:py-2"
+			class="flex flex-row items-center justify-between rounded-lg sm:px-7 sm:py-2 md:px-4 md:py-2"
 			style="background-color:{data.color2}"
 		>
 			<div class="left flex flex-row gap-2">
